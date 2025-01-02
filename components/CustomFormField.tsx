@@ -13,16 +13,7 @@ import {
   FormMessage,
 } from "./ui/form";
 import { Input } from "./ui/input";
-
-export enum FormFieldType {
-  INPUT = "input",
-  TEXTAREA = "textarea",
-  PHONE_INPUT = "phoneInput",
-  CHECKBOX = "checkbox",
-  DATE_PICKER = "datePicker",
-  SELECT = "select",
-  SKELETON = "skeleton",
-}
+import { FormFieldType } from "./forms/PatientForm";
 
 interface CustomProps {
   control: Control<any>;
